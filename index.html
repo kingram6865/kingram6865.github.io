@@ -11,6 +11,7 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
+        <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
@@ -45,12 +46,12 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">Ken Ingram</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold myname">Ken Ingram</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white font-weight-light mb-5">San Francisco Based Software Engineer</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://drive.google.com/file/d/1QoKUnZL_rvr9bwh8XrxefflLA71YQOL2/view?usp=sharing" target="_blank">View Resume</a>
+                        <p class="text-white font-weight-light mb-5 myrole">San Francisco Based Software Engineer</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger resume" href="https://drive.google.com/file/d/1QoKUnZL_rvr9bwh8XrxefflLA71YQOL2/view?usp=sharing" target="_blank">View Resume</a>
                     </div>
                 </div>
             </div>
@@ -60,7 +61,7 @@
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-8 text-center">
-                        <div data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="300" class="about-photo aos-init aos-animate"></div>
+                        <div data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="300" class="about-picture aos-init aos-animate"></div>
                         <h2 class="text-white mt-0">Hello, I'm Ken Ingram!</h2>
                         <hr class="divider light my-4" />
                         <p data-aos="zoom-in-left" class="text-white-50 mb-4 aos-init aos-animate" data-aos-easing="linear" data-aos-duration="300">I became fascinated with all types of technology at a young age, and computers
@@ -117,7 +118,7 @@
             </div>
         </section>
         <!-- Portfolio-->
-        <section class="page-section" id="portfolio">
+        <section class="page-section bg-primary" id="portfolio-agency">
           <div class="container">
             <div class="row">
               <div class="col-lg-12 text-center">
@@ -125,53 +126,201 @@
                 <hr class="divider dark my-4">
               </div>
             </div>
-          
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear">
-              <!--a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg"-->
-                <img class="img-fluid" src="images/JSPT.png" alt="" />
-                <div class="portfolio-box-caption">
-                  <div class="project-category text-white-50">Unit 4 Project</div>
-                  <div class="project-name">Job-Search Progress-Tracker</div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear"
+              data-aos-duration="300">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <h1><i class="fas fa-plus"></i> View More!</h1>
+                  </div>
                 </div>
+                <img class="img-fluid" src="images/JSPT.png" alt="">
               </a>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear">
-                <!--a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg"-->
-                  <img class="img-fluid" src="images/TCS.png" alt="" />
-                  <div class="portfolio-box-caption">
-                    <div class="project-category text-white-50">Unit 3 Project</div>
-                    <div class="project-name">The Candy Shop</div>
-                  </div>
-                </a>
-            </div>
-            
-          </div>
-          <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear">
-                        <!--a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg"-->
-                          <img class="img-fluid" src="images/DDCCCG.png" alt="" />
-                          <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Unit 2 Project</div>
-                            <div class="project-name">D&D Chaos Roll Character Generator</div>
-                          </div>
-                        </a>
+              <div class="portfolio-caption">
+                <h4>Job-Search Progress-Tracker</h4>
               </div>
-
-              <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear">
-                <!--a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg"-->
-                  <img class="img-fluid" src="images/RAMVTW.png" alt="" />
-                  <div class="portfolio-box-caption">
-                    <div class="project-category text-white-50">Unit 1 Project</div>
-                    <div class="project-name">Rick and Morty Versus The World(s)!?</div>
+            </div>
+      
+      
+              <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear"
+             data-aos-duration="300">
+                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <h1><i class="fas fa-plus"></i> View More!</h1>
+                    </div>
                   </div>
+                  <img class="img-fluid" src="images/TCS.png" alt="">
                 </a>
+                <div class="portfolio-caption">
+                  <h4>The Candy Shop</h4>
+                </div>
               </div>
-          </div>
+      
+            </div>
+      
+            <div class="row">
+      
+              <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear"
+              data-aos-duration="300">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <h1><i class="fas fa-plus"></i> View More!</h1>
+                  </div>
+                </div>
+                <img class="img-fluid" src="images/DDCCCG.png" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>D&D Chaos Challenge Character Generator</h4>
+              </div>
+            </div>
+      
+      
+              <div class="col-lg-6 col-md-6 col-sm-6 portfolio-item" data-aos="zoom-in" data-aos-easing="linear"
+              data-aos-duration="300">
+              <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content align-items-center">
+                    <h1><i class="fas fa-plus"></i> View More!</h1>
+                  </div>
+                </div>
+                <img class="img-fluid" src="images/RAMVTW.png" alt="">
+              </a>
+              <div class="portfolio-caption">
+                <h4>Rick and Morty Versus the World(s)!?</h4>
+              </div>
+            </div>
+      
+            </div>
           </div>
         </section>
+<!-- Modals-->
+  <!-- Modal 1 - Job-Search Progress Tracker -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Job-Search Progress-Tracker</h2>
+                <img class="d-block mx-auto" src="images/JSPT.png" alt="">
+                <p>Job-Search Progress-Tracker is a full stack web app for users to save and track their job search history, 
+                  including actions taken related to any one job application. After signing in, users can access all companies 
+                  and jobs that have been added to the datastore, including those added by other users, and have a custom list 
+                  of actions related to a job being tracked.
+                  
+                  The App uses a custom API from a backend constructed using Ruby, Rails and PostgreSQL. The front end is built 
+                  using React, implementing Axios for HTTP requests to the custom API.</p>
+                <ul class="list-inline">
+                  <li>Deployed Site: <a href="https://eager-goldberg-a41635.netlify.app" target="_blank">Link<a/>
+                  </li>
+                  <li>Web Client GitHub Repository: <a href="https://github.com/kingram6865/job-search-tracker/tree/main/client" target="_blank">Link</a>
+                  </li>
+                  <li>API GitHub Repository: <a href="https://github.com/kingram6865/job-search-tracker" target="_blank">Link</a>
+                  </li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- Modal 2 - The Candy Shop -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>The Candy Shop</h2>
+                <img class="d-block mx-auto" src="images/TCS.png" alt="">
+                <p>.</p>
+                <ul class="list-inline">
+                  <li>Deployed Site: <a href="https://thecandyshop.netlify.app/" target="_blank">Link<a/>
+                  </li>
+                  <li>Web Client GitHub Repository: <a href="https://github.com/kingram6865/sei-p3-candy/tree/development/client" target="_blank">Link</a>
+                  </li>
+                  <li>API GitHub Repository: <a href="https://github.com/kingram6865/sei-p3-candy" target="_blank">Link</a>
+                  </li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+
+<!-- Modal 3 - D&D Chaos Challenge Character Generator -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>D&D Chaos Challenge Character Generator</h2>
+              <img class="d-block mx-auto" src="images/DDCCCG.png" alt="">
+              <p></p>
+              <ul class="list-inline">
+                <li>Deployed Site: <a href="https://ddcccg.netlify.app/" target="_blank">Link<a/>
+                </li>
+                <li>API GitHub Repository: <a href="https://github.com/kingram6865/chaos_challenge" target="_blank">Link</a></li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<!-- Modal 4 - Rick and Morty -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>Rick and Morty Versus the World(s)...!?</h2>
+              <img class="d-block mx-auto" src="images/RAMVTW.png" alt="">
+              <p>Rick and Morty Versus the World(s) is a front end presented in the form of a dossier, presenting information on the sentient beings inhabiting the universes of Rick and Morty.
+                The app uses Axios to access a third-party API, and the front end is built using HTML, CSS and JavaScript.</p>
+              <ul class="list-inline">
+                <li>Deployed Site: <a href="https://kingram6865.github.io/rick_and_morty_versus_the_worlds" target="_blank">Link<a/></li>
+                <li>API GitHub Repository: <a href="https://github.com/kingram6865/rick_and_morty_versus_the_worlds" target="_blank">Link</a></li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
