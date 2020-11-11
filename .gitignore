@@ -9,10 +9,11 @@ _SpecRunner.html
 *.svg
 *.ttf
 *.eot
+*.xcf
 public/
 old_*
 testing/*
-
+original_*
 # Created by https://www.gitignore.io/api/osx,linux
 
 ### OSX ###

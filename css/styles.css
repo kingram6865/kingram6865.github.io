@@ -10949,13 +10949,16 @@ header.masthead p {
   -webkit-text-stroke-color: #17A2B8;
 }
 
-a.resume {
-  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
-}
 
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 900px;
   }
+}
+
+a.resume {
+  background-color: white;
+  color: #17a2b8;
+  box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
 }
 
